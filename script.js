@@ -19,14 +19,14 @@ continue_btn.onclick = () => {
     quiz_box.classList.add("activeQuiz");
     showQuestion(0);
     queCounter(1);
-    startTimer(15);
+    startTimer(10);
 }
 
 
 let que_count = 0;
 let que_num =1;
 let counter;
-let timeValue = 15;
+let timeValue = 10;
 let userScore = 0;
 
 const next_btn = quiz_box.querySelector(".next_btn");
